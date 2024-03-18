@@ -1,0 +1,12 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\alexc\OneDrive - Humber College\Semester 6\Parallel Programming\Assignment\Brute_Force>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o "C:\Users\alexc\OneDrive - Humber College\Semester 6\Parallel Programming\Assignment\Brute_Force\x64\Debug\kernel.cu.obj" "C:\Users\alexc\OneDrive - Humber College\Semester 6\Parallel Programming\Assignment\Brute_Force\kernel.cu" 
+C:\Users\alexc\OneDrive - Humber College\Semester 6\Parallel Programming\Assignment\Brute_Force\kernel.cu(12): warning #177-D: variable "XY" was declared but never referenced
+        __declspec(__shared__) int XY[1024];
+                                   ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+  kernel.cu
+  tmpxft_000085d4_00000000-7_kernel.cudafe1.cpp
+  Brute_Force.vcxproj -> C:\Users\alexc\OneDrive - Humber College\Semester 6\Parallel Programming\Assignment\Brute_Force\x64\Debug\Brute_Force.exe
